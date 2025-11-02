@@ -1,0 +1,57 @@
+# Hybrid Bone Fracture Detection Model Configuration
+
+# Model Configuration
+model:
+  name: "HybridFractureDetector"
+  version: "1.0"
+
+  # YOLO Configuration
+  yolo:
+    weights_path: "weights/production/yolo_final.pt"
+    threshold: 0.7
+    fracture_classes: [0, 3]
+    input_size: [224, 224]
+
+  # FracNet Configuration
+  fracnet:
+    weights_path: "weights/production/fracnet_final.pth"
+    input_size: [256, 256]
+
+  # Ensemble Configuration
+  ensemble:
+    enabled: true
+    yolo_weight: 0.8
+    fracnet_weight: 0.2
+
+# Training Configuration
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  device: "cpu" # or "cuda"
+
+  # Data paths
+  data:
+    train_dir: "data/processed/train"
+    val_dir: "data/processed/val"
+    test_dir: "data/processed/test"
+
+  # Optimization
+  optimizer: "adam"
+  scheduler: "cosine"
+
+  # Checkpoints
+  save_dir: "weights/checkpoints"
+  save_frequency: 10
+
+# Evaluation Configuration
+evaluation:
+  metrics: ["accuracy", "precision", "recall", "f1", "auc"]
+  threshold_range: [0.1, 0.9]
+  threshold_step: 0.1
+
+# Production Configuration
+production:
+  confidence_threshold: 0.7
+  batch_processing: true
+  max_batch_size: 16

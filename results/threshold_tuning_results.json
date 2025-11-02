@@ -1,0 +1,9 @@
+{
+  "best_val": {
+    "acc": 0.6666666666666666,
+    "mode": "weighted",
+    "weight_yolo": 0.5,
+    "score_thr": 0.4
+  },
+  "test_acc": 0.6984126984126984
+}

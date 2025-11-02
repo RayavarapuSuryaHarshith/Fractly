@@ -1,0 +1,6 @@
+names:
+- fracture
+nc: 1
+path: C:\Users\Narendar\OneDrive\Desktop\bone-fracture-hybrid\src\yolo\data\yolo_fracture_dataset
+train: train/images
+val: val/images

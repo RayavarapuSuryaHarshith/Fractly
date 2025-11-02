@@ -1,0 +1,27 @@
+# Bone Fracture Detection - Hybrid AI System Requirements
+# Install with: pip install -r requirements.txt
+
+# Core framework
+streamlit>=1.28.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# Image processing
+Pillow>=9.5.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# Additional utilities
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+
+# Optional: GPU support (uncomment if needed)
+# torch==2.0.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+# torchvision==0.15.2+cu118 -f https://download.pytorch.org/whl/torch_stable.html

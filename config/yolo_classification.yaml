@@ -1,0 +1,7 @@
+# YOLOv11 classification data config for new dataset
+path: new Dataset
+train: new Dataset/train
+val: new Dataset/val
+names:
+  0: fracture
+  1: no_fracture

@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.dcm
+
+# Datasets
+dataset/
+new Dataset/
+example test/
+
+# Model weights (too large for git)
+weights/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# Keep only a README in weights folder
+!weights/README.md
+
+# Logs and outputs
+logs/
+runs/
+*.log
+wandb/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+temp_xray_analysis.jpg
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Specific to this project
+WORKSPACE_CLEANUP_SUMMARY.md
+PROJECT_ORGANIZATION_PLAN.md
+interactive_test.py
+quick_test.py
+Fig-A6-Fracture-X-ray-image-of-an-oblique-fracture-of-the-left-humerus.png
+yolo11n-cls.pt
+test_hybrid_accuracy.py
+test_hybrid_api.py
+App/quick_test.py
+App/test_app.py

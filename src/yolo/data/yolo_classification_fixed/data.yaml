@@ -1,0 +1,5 @@
+train: C:\Users\Narendar\OneDrive\Desktop\bone-fracture-hybrid\src\yolo\data\yolo_classification_fixed/train
+val: C:\Users\Narendar\OneDrive\Desktop\bone-fracture-hybrid\src\yolo\data\yolo_classification_fixed/val
+
+nc: 2
+names: ['fracture', 'no_fracture']

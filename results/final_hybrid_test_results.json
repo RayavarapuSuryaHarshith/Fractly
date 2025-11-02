@@ -1,0 +1,28 @@
+{
+  "model_type": "final_hybrid_fracture_detector",
+  "overall_accuracy": 0.9318181818181818,
+  "fracture_accuracy": 0.9090909090909091,
+  "no_fracture_accuracy": 0.9545454545454546,
+  "sensitivity": 0.9090909090909091,
+  "specificity": 0.9545454545454546,
+  "mean_confidence": 0.8967665298418566,
+  "agreement_rate": 0.5227272727272727,
+  "decision_reasons": {
+    "yolo_high_confidence": 35,
+    "yolo_fracture_priority": 3,
+    "both_agree": 6
+  },
+  "total_samples": 44,
+  "confusion_matrix": [
+    [
+      20,
+      2
+    ],
+    [
+      1,
+      21
+    ]
+  ],
+  "target_achieved": true,
+  "target_accuracy": 0.9
+}
