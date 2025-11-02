@@ -84,9 +84,9 @@ This AI system is designed for research and educational purposes. While it achie
 
 ### 👥 Development Team
 
-- **Nellore Sai Nikhil** - 21BCE8845
-- **Sungavarapu Sai Harshavardhan** - 21BCE8250  
-- **Vemula Kesavaaditya Gupta** - 21BCE7839
+- **R.Surya Harshith**
+- **R.Sasi Varshith**
+- **S.Narendar Reddy**
 
 ### 📈 Version History
 
