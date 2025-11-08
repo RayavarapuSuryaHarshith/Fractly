@@ -5,5 +5,3 @@ libxrender1
 libxext6
 libgomp1
 ffmpeg
-libsm6
-libxext6
