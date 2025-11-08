@@ -53,16 +53,14 @@ dataset/
 new Dataset/
 example test/
 
-# Model weights (too large for git)
-weights/
-*.pth
-*.pt
+# Model weights - Now using Git LFS for *.pt and *.pth files
+# weights/  # Commented out - now tracking with Git LFS
 *.pkl
 *.h5
 *.onnx
 
-# Keep only a README in weights folder
-!weights/README.md
+# Keep weights folder and files tracked by Git LFS
+# !weights/README.md  # Not needed anymore
 
 # Logs and outputs
 logs/

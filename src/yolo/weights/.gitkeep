@@ -1,0 +1,5 @@
+# This file ensures the weights directory is tracked by git
+# Add your trained YOLO weights here:
+# - yolo11n.pt (base pretrained model)
+# - yolo_fracture_best.pt (fine-tuned for fractures)
+# - Any custom YOLO model variants
