@@ -13,6 +13,8 @@ from final_hybrid_model_with_visualization import FinalHybridFractureDetector
 import warnings
 warnings.filterwarnings("ignore")
 
+# Note: This app uses opencv-python-headless for server deployment compatibility
+
 # Configure Streamlit page
 st.set_page_config(
     page_title="Bone Fracture Detection - With Visualization",
